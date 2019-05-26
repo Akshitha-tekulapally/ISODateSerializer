@@ -5,6 +5,7 @@ public class School {
     private String schoolName;
     private List<Student>students;
     private Date establishedOn;
+    private Double testDouble;
 
     public String getSchoolName() {
         return schoolName;
@@ -28,5 +29,13 @@ public class School {
 
     public void setEstablishedOn(Date establishedOn) {
         this.establishedOn = establishedOn;
+    }
+
+    public Double getTestDouble() {
+        return testDouble;
+    }
+
+    public void setTestDouble(Double testDouble) {
+        this.testDouble = testDouble;
     }
 }

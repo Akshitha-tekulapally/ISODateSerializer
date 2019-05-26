@@ -28,6 +28,7 @@ public class Main {
         school.setSchoolName("Convent School");
         school.setStudents(students);
         school.setEstablishedOn(new Date());
+        school.setTestDouble(1.0);
 
         ObjectMapper mapper = new ObjectMapper();
         SimpleModule module = new SimpleModule();
